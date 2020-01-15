@@ -2,6 +2,7 @@
 const myDiv = document.createElement('div');
 
 // add a class of wrapper to it
+myDiv.classList = 'wrapper';
 
 // put it into the body
 
