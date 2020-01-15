@@ -43,6 +43,13 @@ myImage.setAttribute('alt', 'Cute Puppy');
 myDiv.appendChild(myImage);
 
 // with HTML string, make a div, with two paragraphs inside of it
+const newDiv = `
+  <div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, provident.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, doloremque.</p>
+  </div>
+`;
+
 // put this div before the unordered list from above
 
 // add a class to the second paragraph called warning
