@@ -25,6 +25,7 @@ myList.appendChild(li3);
 document.querySelector('.wrapper').insertAdjacentElement('afterbegin', myList);
 
 // create an image
+const myImage = document.createElement('img');
 
 // set the source to an image
 // set the width to 250
