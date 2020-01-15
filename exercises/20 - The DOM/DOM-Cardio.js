@@ -37,6 +37,8 @@ myImage.setAttribute('width', '250');
 myImage.className = 'cute';
 
 // add an alt of Cute Puppy
+myImage.setAttribute('alt', 'Cute Puppy');
+
 // Append that image to the wrapper
 
 // with HTML string, make a div, with two paragraphs inside of it
