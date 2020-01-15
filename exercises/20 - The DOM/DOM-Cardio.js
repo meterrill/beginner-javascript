@@ -5,6 +5,7 @@ const myDiv = document.createElement('div');
 myDiv.classList = 'wrapper';
 
 // put it into the body
+document.querySelector('body').insertAdjacentElement('afterbegin', myDiv);
 
 // make an unordered list
 
