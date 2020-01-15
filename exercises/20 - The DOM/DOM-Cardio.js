@@ -31,6 +31,8 @@ const myImage = document.createElement('img');
 myImage.setAttribute('src', 'https://picsum.photos/200');
 
 // set the width to 250
+myImage.setAttribute('width', '250');
+
 // add a class of cute
 // add an alt of Cute Puppy
 // Append that image to the wrapper
