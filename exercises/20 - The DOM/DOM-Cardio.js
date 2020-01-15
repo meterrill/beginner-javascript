@@ -8,6 +8,7 @@ myDiv.classList = 'wrapper';
 document.querySelector('body').insertAdjacentElement('afterbegin', myDiv);
 
 // make an unordered list
+const myList = document.createElement('ul');
 
 // add three list items with the words "one, two three" in them
 // put that list into the above wrapper
