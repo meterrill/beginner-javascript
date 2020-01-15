@@ -22,6 +22,7 @@ li3.innerText = 'three';
 myList.appendChild(li3);
 
 // put that list into the above wrapper
+document.querySelector('.wrapper').insertAdjacentElement('afterbegin', myList);
 
 // create an image
 
