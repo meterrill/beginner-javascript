@@ -34,6 +34,8 @@ myImage.setAttribute('src', 'https://picsum.photos/200');
 myImage.setAttribute('width', '250');
 
 // add a class of cute
+myImage.className = 'cute';
+
 // add an alt of Cute Puppy
 // Append that image to the wrapper
 
