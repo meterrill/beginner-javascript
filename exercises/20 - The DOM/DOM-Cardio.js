@@ -40,6 +40,7 @@ myImage.className = 'cute';
 myImage.setAttribute('alt', 'Cute Puppy');
 
 // Append that image to the wrapper
+myDiv.appendChild(myImage);
 
 // with HTML string, make a div, with two paragraphs inside of it
 // put this div before the unordered list from above
