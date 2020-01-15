@@ -11,6 +11,16 @@ document.querySelector('body').insertAdjacentElement('afterbegin', myDiv);
 const myList = document.createElement('ul');
 
 // add three list items with the words "one, two three" in them
+const li1 = document.createElement('li');
+li1.innerText = 'one';
+const li2 = document.createElement('li');
+myList.appendChild(li1);
+li2.innerText = 'two';
+myList.appendChild(li2);
+const li3 = document.createElement('li');
+li3.innerText = 'three';
+myList.appendChild(li3);
+
 // put that list into the above wrapper
 
 // create an image
