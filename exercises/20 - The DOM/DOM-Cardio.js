@@ -51,6 +51,8 @@ const newDiv = `
 `;
 
 // put this div before the unordered list from above
+const ulElement = myDiv.querySelector('ul');
+ulElement.insertAdjacentHTML('beforebegin', newDiv);
 
 // add a class to the second paragraph called warning
 // remove the first paragraph
