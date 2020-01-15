@@ -28,6 +28,8 @@ document.querySelector('.wrapper').insertAdjacentElement('afterbegin', myList);
 const myImage = document.createElement('img');
 
 // set the source to an image
+myImage.setAttribute('src', 'https://picsum.photos/200');
+
 // set the width to 250
 // add a class of cute
 // add an alt of Cute Puppy
